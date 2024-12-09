@@ -1,0 +1,321 @@
+/* coloca margem e espacamento 0 */ 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* coloca a imagem e a fonte trebuchet */
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* coloca espacamento esquerdo de 250px, e topo de 20px */
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+/* coloca a imagem e espacamento no topo de 20px e margem direita de 45px */
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+/* coloca uma cor de fundo com uma largura de 630px um espacamento entre palavras de 10px, com um espacamento de 10px, 15px e 250px */
+#navegacao {
+    background-color: #b10333;
+    width: 630px;
+    word-spacing: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 250px;
+}
+
+/* tira o sublinhado do texto na cor branca */
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+/* quando o mouse passar encima vai ficar na cor vermelha */
+.Links:hover {
+    color: #69001d;
+}
+
+/* layout de 3 colunas */
+
+/* coloca uma margem no topo de 50px e uma cor de fundo branca */
+#margemConteudo {
+    margin-top: 50px;
+    background: white;
+}
+
+/* coloca uma largura de 250px e uma margem de 0px, 20px e 195px */
+#primeiro {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+/* coloca uma largura de 750px e uma margem de 0px, e 20px */
+#uma #primeiro {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+/* coloca uma largura de 550px */
+#duas #primeiro {
+    width: 550px;
+}
+
+/* coloca uma largura de 150px e uma margem de 20px */
+#lado {
+    width: 150px;
+    float: left;
+    margin: 0 0 20px;
+}
+
+/* coloca uma margem esquerda de 180px */
+#conteudo-entrevistas {
+    margin-left: 180px;
+}
+
+/* coloca uma cor de fundo branca */
+#links-entrevistas {
+    background-color: white;
+}
+
+/* tira o sublinhado do texto coloca na cor branca com um espacamento esquerdo de 10px */
+.links {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+/* coloca um espacamento no topo de 10px e um espacamento embaixo de 5px */
+.alinhar-links {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* coloca uma imagem com um espacamento da esquerda de 20px na cor cinza */
+.links:hover {
+    background: url(imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: gray;
+}
+
+/* coloca uma borda embaixo de 2px sólida na cor branca */
+.entrevista-link {
+    border-bottom: solid 2px #f3f3f3;
+}
+
+/* coloca uma imagem, com posicao absoluta e largura de 250px e espacamento de 15px */
+#fundo-entrevistas {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 250px;
+    padding: 15px;
+}
+
+/* coloca um espacamento no topo de 400px */
+#conteudo-news {
+    padding-top: 400px;
+}
+
+/* coloca uma cor de fundo branca */
+#fundo-news-branco {
+    background-color: white;
+}
+
+/* coloca um espacamento na esquerda de 10px e uma margem no topo de 10px */
+#espacamento-form {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+/* coloca a imagem, com posicao absoluta e largura de 250px e um espacamento de 15px */
+#fundo-news {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 250px;
+    padding: 15px;
+}
+
+/* coloca uma cor azul de fundo com largura de 250px e altura de 38px */
+#titulo-azul-news {
+    background-color: #294c71;
+    width: 250px;
+    height: 38px;
+}
+
+/* coloca uma largura de 170px, uma altura de 30px, com a borda no topo e esquerda preta, e embaixo e direita cinza com espacamento esquerdo de 5px */
+#form {
+    width: 170px;
+    height: 30px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-bottom: solid gray 2px;
+    border-right: solid gray 2px;
+    padding-left: 5px;
+}
+
+/* coloca uma largura de 100px com altura de 30px na cor de fundo vermelha e na borda vermelho escuro. Na letra cor branca */
+#botao-form {
+    width: 100px;
+    height: 30px;
+    background-color: #e50040;
+    border: #69001d 2px solid;
+    color: white;
+}
+
+/* coloca uma cor azul de fundo com largura de 250px e altura de 38px */
+#titulo-azul-entrevista {
+    background-color: #294c71;
+    width: 250px;
+    height: 38px;
+}
+
+/*  coloca uma margem esquerda de 300px */
+#conteudo3 {
+    margin-left: 300px;
+}
+
+/* coloca uma largura de 250px com margens de 0px, 20px e 195px */
+#segundo {
+    width: 250px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+/* coloca a cor de fundo azul com largura de 550px e altura de 40px */
+.titulo-azul {
+    background-color: #294c71;
+    width: 550px;
+    height: 40px;
+}
+
+/* coloca um espacamento na esquerda e no topo de 5px, com a cor da letra branca */
+#texto-titulo {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+/* coloca a cor de fundo vermelha com largura de 180px e altura de 30px */
+.titulo-vermelho {
+    background-color:#e50040;
+    width: 180px;
+    height: 30px;
+}
+
+/* coloca um espacamento na esquerda e no topo de 5px com a cor da letra branca */
+#texto-titulo3 {
+    padding-left: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+/* coloca uma imagem, com posicao absoluta, largura de 550px e espacamento de 15px */
+#fundo3 {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 550px;
+    padding: 15px;
+}
+
+/* coloca um espacamento na direita de 150px */
+#alinhar {
+    padding-right: 150px;
+}
+
+/* coloca uma cor de fundo branca e um espacamento de 10px */
+#fundo-legislacao {
+    background-color: white;
+    padding: 10px;
+}
+
+/* coloca uma borda de 3px solida na cor cinza */
+#taxi-imagem {
+    border: solid gray 3px;
+}
+
+/* coloca a cor da letra vermelha */
+#leia-mais {
+    color:#e50040;
+}
+
+/* coloca a cor de fundo branca com espacamento de 10px, com posicao relativa e altura de 80px */
+#novas-tecnologias {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    height: 80px;
+}
+
+/* tira o sublinhado do texto e o coloca na cor preta */
+#texto {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* coloca a cor da letra azul */
+#titulo {
+    color: #3e7ab9;
+}
+
+/* coloca uma margem na esquerda de 315px */
+#conteudo4 {
+    margin-left: 315px;
+}
+
+/* coloca uma imagem, com posicao absoluta e largura de 550px e um espacamento de 15px */
+#fundo4 {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 550px;
+    padding: 15px;
+}
+
+/* coloca um espacamento no topo de 100px */
+#conteudo4 {
+    padding-top: 100px;
+}
+
+/* coloca um espacamento na esquerda de 110px e a cor do texto azul */
+#titulo4 {
+    padding-left: 110px;
+    color: #3e7ab9;
+}
+
+/* coloca um espacamento na esquerda de 105px */
+#texto-tecnologia4 {
+    padding-left: 105px;
+}
+
+/* coloca um espacamento no topo de 5px */ 
+#img-tecnologia {
+    padding-top: 5px;
+}
+
+/* coloca uma posicao relativa com um espacamento embaixo de 60px */
+#alinhar-texto {
+    position: relative;
+    bottom: 60px;
+}
+
+/* coloca uma cor de fundo branca */
+#novas-tecnologias:hover {
+    background-color: #f3f3f3;
+}
+
+/* coloca uma cor de fundo azul com texto centralizado na cor branca com o tipo de letra arial */
+footer {
+    background-color: #294c71;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

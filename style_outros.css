@@ -1,0 +1,45 @@
+/* tag universal para espacamento e margem zero */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* vai definir uma fonte e colocar uma imagem de fundo */
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/* vai colocar um espacamento da esquerda de 250px e do topo de 20px */
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+/* colocou a imagem com o espaçamento no topo de 20px e uma margem da direita de 45px */
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+/* editou os links no menu */
+#navegacao {
+    background-color: #b10333;
+    width: 630px;
+    word-spacing: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 250px;
+}
+
+/* colocou um link sem sublinhado e na cor branca */
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+/* ao passar o mouse encima do link ele vai ficar na cor descrita */
+.Links:hover {
+    color: #69001d;
+}

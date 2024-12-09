@@ -1,0 +1,183 @@
+/* coloca a margem e o espacamento em 0px */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* coloca uma imagem e um tipo de fonte trebuchet */
+body {
+    background: repeat-x url(imagens/fundo.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* coloca um espacamento na esquerda de 250px e no topo de 20px */
+#espacamento_titulo {
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+/* coloca uma imagem com espacamento no topo de 20px e margem da direita de 45px */
+#ajustar_mapaBrasil {
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 20px;
+    margin-right: 45px;
+}
+
+/* coloca uma cor de fundo vermelha com largura de 630px e espacamento de palavras de 10px e espacamento de 10px */
+#navegacao {
+    background-color: #b10333;
+    width: 630px;
+    word-spacing: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    margin-left: 250px;
+}
+
+/* tira o sublinhado do texto e o coloca na cor branca */
+.Links {
+    text-decoration: none;
+    color: white;
+}
+
+/* quando o ponteiro do mouse passar encima a cor do texto ficara vermelha */
+.Links:hover {
+    color: #69001d;
+}
+
+/* layout de 3 colunas */
+
+/* coloca uma margem no topo de 50px e uma cor de fundo branca */
+#margemConteudo {
+    margin-top: 50px;
+    background: white;
+}
+
+/* coloca uma margem */
+#primeiro {
+    width: 250px;
+}
+
+/* coloca uma largura de 750px */
+#uma #primeiro {
+    width: 750px;
+}
+
+/* coloca uma largura de 550px */
+#duas #primeiro {
+    width: 550px;
+}
+
+/* coloca um espacamento esquerdo de 200px */
+#margemConteudo {
+    padding-left: 200px;
+}
+
+/* coloca a cor */
+.titulo-azul {
+    background-color: #294c71;
+    width: 850px;
+    height: 40px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* coloca a cor de fundo vermelha com a cor da letra branca e uma largura de 160px e altura de 30px com um tamanho de letra de 15px */
+.titulo-vermelho {
+    background-color: #e50040;
+    color: white;
+    width: 160px;
+    height: 30px;
+    font-size: 15px;
+}
+
+/* alinha o texto ao centro com um espacamento no topo de 5px */
+#texto-titulo2 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* coloca uma borda solida cinza de 3px */
+#taxi-imagem {
+    border: gray solid 3px;
+}
+
+/* coloca uma imagem com posicao absoluta e uma largura de 860px e um espacamento de 15px */
+#fundo {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 860px;
+    padding: 15px;
+}
+
+/* coloca a cor de fundo branca com espacamento de 10px */
+#fundo-branco {
+    background-color: white;
+    padding: 10px;
+}
+
+/*  */
+#leia-mais {
+    color: #e50040;
+}
+
+/* coloca um espacamento na esquerda de 200px */
+#conteudo-mundo {
+    padding-left: 200px;
+}
+
+/* coloca a imagem de fundo com posicao absoluta e uma largura de 855px e um espacamento de 15px */
+#fundo-mundo {
+    background-image: url(imagens/fundo-caixa.png);
+    position: absolute;
+    width: 855px;
+    padding: 15px;
+}
+
+/* coloca um espacamento esquerdo de 110px com uma cor de letra azul */
+#titulo {
+    padding-left: 110px;
+    color: #3e7ab9;
+}
+
+/* coloca um espacamento na esquerda de 105px */
+#texto-tecnologia {
+    padding-left: 105px;
+}
+
+/* coloca um espacamento no topo de 5px */
+#img-tecnologia {
+    padding-top: 5px;
+}
+
+/* coloca um espacamento embaixo de 60px com uma posicao relativa */
+#alinhar-texto {
+    position: relative;
+    bottom: 60px;
+}
+
+/* tira o sublinhado do texto e o coloca na cor preta */
+#texto {
+    text-decoration: none;
+    color: black;
+}
+
+/* coloca uma cor de fundo branca com espacamento esquerdo de 10px e uma altura de 80px */
+#novas-tecnologias {
+    background-color: white;
+    padding-left: 10px;
+    height: 80px;
+}
+
+/* coloca uma cor de funda branca */
+#novas-tecnologias:hover {
+    background-color: #f3f3f3;
+}
+
+/* coloca uma cor de fundo azul com  o texto centralizado e uma cor de texto branca com a fonte Arial */
+footer {
+    background-color: #294c71;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
